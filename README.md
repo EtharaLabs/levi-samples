@@ -74,7 +74,7 @@ flowchart LR
 flowchart LR
     staging["staging/"]
     staging --> samples["samples/<br/>3 of 30"]
-    samples --> delivery["delivery/<br/>0 of 10000"]
+    samples --> delivery["delivery/<br/>0 of 2000"]
     delivery --> stock["stock/<br/>0 of 10000"]
 ```
 
@@ -104,9 +104,5 @@ MIT. See [`LICENSE`](LICENSE).
 ## Contact
 
 [Ethara.AI](https://github.com/Ethara-Ai), disclosures per [`SECURITY.md`](SECURITY.md), contributions per [`CONTRIBUTING.md`](CONTRIBUTING.md).
-
----
-
-## Copyright
 
 Copyright (c) 2026 Green Rider Technology LLP (Ethara AI). All rights reserved.
